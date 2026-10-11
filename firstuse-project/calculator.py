@@ -6,4 +6,4 @@ def add(a: float, b: float) -> float:
 
 
 def multiply(a: float, b: float) -> float:
-    return a + b  # BUG: returns the sum instead of the product
+    return a * b  # BUG: returns the sum instead of the product
